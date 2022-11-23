@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.4+commit.c7e474f2"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "Factory",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "personal_contract",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/8-factory.sol": "main"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/8-factory.sol": {
+			"keccak256": "0xe309e85d7d4a2e6e1dc68a0aaaaed82db25224fcebb0d2ae599dcb35c8f3136f",
+			"license": "MT",
+			"urls": [
+				"bzz-raw://eae460e1c663d6d7a2346e264d3f1e3e64f90bd3d6a4d9152e5c23a7893fc9ac",
+				"dweb:/ipfs/QmfUs2ZT4kLsctypdzhbMtgtNrwiEdBxH1sWgoTHJ9YDjb"
+			]
+		}
+	},
+	"version": 1
+}
